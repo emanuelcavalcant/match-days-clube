@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Days - Clubes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0a0a;
+            color: white;
+            scroll-behavior: smooth;
+        }
+        .hero-gradient {
+            background: linear-gradient(to bottom, transparent, #0a0a0a);
+        }
+        .fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .selection-orange::selection {
+            background-color: #f97316;
+            color: white;
+        }
+    </style>
+</head>
+<body class="selection-orange">
+
+    <!-- Hero Section -->
+    <header class="relative h-[70vh] flex flex-col items-center justify-center text-center px-6 overflow-hidden">
+        <div class="relative z-10 max-w-4xl fade-in">
+            <h1 class="text-5xl md:text-8xl font-black uppercase tracking-tighter mb-6 italic">
+                Match Days <span class="text-orange-500">-</span> Clubes
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300 leading-relaxed max-w-2xl mx-auto font-light">
+                Transforme a comunicação visual do seu clube com artes que respiram o clima do estádio e das grandes ligas. 
+                Esqueça a tela em branco: aqui você encontra templates de escalação, próximo jogo e placar final, 
+                projetados para colocar qualquer time no nível de Série A.
+            </p>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="space-y-4 p-8 rounded-2xl bg-white/5 transition-transform hover:-translate-y-2">
+                <h3 class="text-xl font-bold uppercase tracking-widest text-orange-500">Identidade do Clube</h3>
+                <p class="text-gray-400 leading-relaxed">
+                    Altere escudos, cores e patrocinadores em menos de 5 minutos.
+                </p>
+            </div>
+
+            <div class="space-y-4 p-8 rounded-2xl bg-white/5 transition-transform hover:-translate-y-2">
+                <h3 class="text-xl font-bold uppercase tracking-widest text-orange-500">Agilidade Profissional</h3>
+                <p class="text-gray-400 leading-relaxed">
+                    Arquivos PSD 100% editáveis e organizados por camadas.
+                </p>
+            </div>
+
+            <div class="space-y-4 p-8 rounded-2xl bg-white/5 transition-transform hover:-translate-y-2">
+                <h3 class="text-xl font-bold uppercase tracking-widest text-orange-500">Engajamento de Elite</h3>
+                <p class="text-gray-400 leading-relaxed">
+                    Padrão visual de alto impacto para valorizar os atletas e parceiros do seu clube.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Templates Grid -->
+    <section class="py-24 px-6 max-w-7xl mx-auto">
+        <h2 class="text-3xl font-black uppercase mb-12 italic">
+            Templates Disponíveis
+        </h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Template 1 -->
+            <div class="template-card flex flex-col rounded-3xl overflow-hidden border border-white/10">
+                <div class="aspect-[9/16] overflow-hidden">
+                    <img src="https://i.imgur.com/UhoMzfb.png" alt="Template 1" class="w-full h-full object-cover transition-transform duration-500" onerror="this.src='https://picsum.photos/seed/template1/1080/1920'">
+                </div>
+                <div class="p-6 mt-auto">
+                    <a href="https://drive.google.com/file/d/1Sb1hkmfzHtills1WVUuFU_dtqdB3QTy6/view" target="_blank" class="flex items-center justify-center gap-2 w-full py-4 bg-white hover:bg-gray-200 text-black font-bold uppercase tracking-tighter rounded-xl transition-colors">
+                        Baixar Agora
+                    </a>
+                </div>
+            </div>
+
+            <!-- Template 2 -->
+            <div class="template-card flex flex-col rounded-3xl overflow-hidden border border-white/10">
+                <div class="aspect-[9/16] overflow-hidden">
+                    <img src="https://i.imgur.com/03uZcrt.png" alt="Template 2" class="w-full h-full object-cover transition-transform duration-500" onerror="this.src='https://picsum.photos/seed/template2/1080/1920'">
+                </div>
+                <div class="p-6 mt-auto">
+                    <a href="https://drive.google.com/file/d/17W9ww1Ft2oMYptgaEGdnHmf7bIfY3QbE/view" target="_blank" class="flex items-center justify-center gap-2 w-full py-4 bg-white hover:bg-gray-200 text-black font-bold uppercase tracking-tighter rounded-xl transition-colors">
+                        Baixar Agora
+                    </a>
+                </div>
+            </div>
+
+            <!-- Template 3 -->
+            <div class="template-card flex flex-col rounded-3xl overflow-hidden border border-white/10">
+                <div class="aspect-[9/16] overflow-hidden">
+                    <img src="https://i.imgur.com/aLn60BA.png" alt="Template 3" class="w-full h-full object-cover transition-transform duration-500" onerror="this.src='https://picsum.photos/seed/template3/1080/1920'">
+                </div>
+                <div class="p-6 mt-auto">
+                    <a href="https://drive.google.com/file/d/1ZLRAtMswgm_41UYnQIywcDyBex2yZ1hd/view" target="_blank" class="flex items-center justify-center gap-2 w-full py-4 bg-white hover:bg-gray-200 text-black font-bold uppercase tracking-tighter rounded-xl transition-colors">
+                        Baixar Agora
+                    </a>
+                </div>
+            </div>
+
+            <!-- Template 4 -->
+            <div class="template-card flex flex-col rounded-3xl overflow-hidden border border-white/10">
+                <div class="aspect-[9/16] overflow-hidden">
+                    <img src="https://i.imgur.com/Ul21TFs.png" alt="Template 4" class="w-full h-full object-cover transition-transform duration-500" onerror="this.src='https://picsum.photos/seed/template4/1080/1920'">
+                </div>
+                <div class="p-6 mt-auto">
+                    <a href="https://drive.google.com/file/d/1aXJOXdYtKSz_LuPi7MaGd2vhSb5aGND3/view" target="_blank" class="flex items-center justify-center gap-2 w-full py-4 bg-white hover:bg-gray-200 text-black font-bold uppercase tracking-tighter rounded-xl transition-colors">
+                        Baixar Agora
+                    </a>
+                </div>
+            </div>
+
+            <!-- Template 5 -->
+            <div class="template-card flex flex-col rounded-3xl overflow-hidden border border-white/10">
+                <div class="aspect-[9/16] overflow-hidden">
+                    <img src="https://i.imgur.com/SJx91u8.png" alt="Template 5" class="w-full h-full object-cover transition-transform duration-500" onerror="this.src='https://picsum.photos/seed/template5/1080/1920'">
+                </div>
+                <div class="p-6 mt-auto">
+                    <a href="https://drive.google.com/open?id=11JxEXjgmXgfDP4H5EWJ8NF2Bcfmq3tri" target="_blank" class="flex items-center justify-center gap-2 w-full py-4 bg-white hover:bg-gray-200 text-black font-bold uppercase tracking-tighter rounded-xl transition-colors">
+                        Baixar Agora
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 text-center text-gray-500 text-sm uppercase tracking-widest">
+        <p>&copy; 2026 Cavalcante Designer. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
